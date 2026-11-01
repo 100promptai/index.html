@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>100 Marketing Prompts — Ready-to-Use Ideas That Deliver Results</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-mark">✦</span>
+        <span>PROMPT<b>.AI</b></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#categories">Categories</a>
+        <a href="#preview">Live Preview</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#inside">What's Inside</a>
+      </nav>
+      <a href="https://promptaiweb.gumroad.com/l/100promptsmk" target="_blank" rel="noopener" class="nav-cta">Get Instant Access →</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="hero-glow"></div>
+    <canvas id="neural-canvas"></canvas>
+    <div class="hero-vignette"></div>
+
+    <div class="container hero-content">
+      <div class="eyebrow"><span class="dot"></span> AI Marketing System • 5 Categories</div>
+      <h1 class="hero-title">100 <span class="text-gradient">Marketing Prompts</span></h1>
+      <p class="hero-subtitle">Ready-to-use ideas to copy and paste that deliver results</p>
+      <p class="hero-desc">Stop getting generic AI output. Unlock a battle-tested library of direct-response prompts across Copywriting, Social Media, Email, Paid Traffic, and Funnels.</p>
+
+      <div class="hero-actions">
+        <a href="https://promptaiweb.gumroad.com/l/100promptsmk" target="_blank" rel="noopener" class="btn-primary">Get Instant Access Now →</a>
+        <a href="#preview" class="btn-secondary">Test Live Prompts ↓</a>
+      </div>
+
+      <div class="hero-stats">
+        <span><strong>5</strong> Categories</span>
+        <span><strong>25</strong> Prompts Each</span>
+        <span><strong>100%</strong> Copy & Paste</span>
+        <button type="button" class="pulse-btn" id="trigger-dissolve">⚡ Pulse Neural Core</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 CATEGORIES -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow"><span class="dot"></span> Complete Architecture</div>
+        <h2 class="section-title">5 Categories. <span class="text-gradient">100 Proven Prompts.</span></h2>
+        <p class="section-sub">Click any category below to test real prompts inside the interactive vault.</p>
+      </div>
+
+      <div class="categories-grid">
+        <article class="category-card reveal" data-target-tab="copywriting">
+          <div class="card-top">
+            <div class="icon-3d">✒️</div>
+            <span class="badge-count">25 prompts</span>
+          </div>
+          <span class="card-index">Category 01</span>
+          <h3>Copywriting & Headlines</h3>
+          <p>Scroll-stopping hooks, PAS & AIDA sales narratives, landing page hero copy, and value propositions.</p>
+          <span class="card-link">Preview Prompts →</span>
+        </article>
+
+        <article class="category-card reveal" data-target-tab="social">
+          <div class="card-top">
+            <div class="icon-3d">🎬</div>
+            <span class="badge-count">25 prompts</span>
+          </div>
+          <span class="card-index">Category 02</span>
+          <h3>Social Media & Content</h3>
+          <p>Viral Reels/TikTok scripts, high-retention carousels, LinkedIn authority threads, and 30-day calendars.</p>
+          <span class="card-link">Preview Prompts →</span>
+        </article>
+
+        <article class="category-card reveal" data-target-tab="email">
+          <div class="card-top">
+            <div class="icon-3d">✉️</div>
+            <span class="badge-count">25 prompts</span>
+          </div>
+          <span class="card-index">Category 03</span>
+          <h3>Email Marketing & Sequences</h3>
+          <p>High-open subject lines, welcome onboarding flows, cart recovery, and 5-day launch sequences.</p>
+          <span class="card-link">Preview Prompts →</span>
+        </article>
+
+        <article class="category-card reveal" data-target-tab="ads">
+          <div class="card-top">
+            <div class="icon-3d">🎯</div>
+            <span class="badge-count">25 prompts</span>
+          </div>
+          <span class="card-index">Category 04</span>
+          <h3>Ads & Paid Traffic</h3>
+          <p>Meta & Instagram ad angles, UGC video scripts, Google Search headlines, and retargeting matrices.</p>
+          <span class="card-link">Preview Prompts →</span>
+        </article>
+
+        <article class="category-card reveal" data-target-tab="funnel">
+          <div class="card-top">
+            <div class="icon-3d">⚡</div>
+            <span class="badge-count">25 prompts</span>
+          </div>
+          <span class="card-index">Category 05</span>
+          <h3>Funnel & Conversion</h3>
+          <p>High-converting lead magnets, VSL scripts, order bumps, one-click upsells, and CRO audits.</p>
+          <span class="card-link">Preview Prompts →</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMPT PREVIEW (TABS + REVEAL) -->
+  <section class="section" id="preview">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow"><span class="dot"></span> Interactive Vault</div>
+        <h2 class="section-title">Preview <span class="text-gradient">Real Prompts</span></h2>
+        <p class="section-sub">Switch tabs, click "Reveal Prompt" on locked examples, or copy directly to test in ChatGPT or Claude.</p>
+      </div>
+
+      <div class="tabs-nav reveal">
+        <button class="tab-btn active" data-tab="copywriting">1. Copywriting & Headlines</button>
+        <button class="tab-btn" data-tab="social">2. Social Media & Content</button>
+        <button class="tab-btn" data-tab="email">3. Email Marketing & Sequences</button>
+        <button class="tab-btn" data-tab="ads">4. Ads & Paid Traffic</button>
+        <button class="tab-btn" data-tab="funnel">5. Funnel & Conversion</button>
+      </div>
+
+      <div class="prompts-grid" id="prompts-grid"></div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="section" id="benefits">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow"><span class="dot"></span> Engineered For ROI</div>
+        <h2 class="section-title">Why These Prompts <span class="text-gradient">Deliver Results</span></h2>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">⏱️</div>
+          <h3>Save 15+ Hours Weekly</h3>
+          <p>Eliminate blank-page syndrome. Generate full campaigns, ads, and emails in 60 seconds instead of hours.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">🧠</div>
+          <h3>Proven Frameworks</h3>
+          <p>Built on timeless persuasion models (PAS, AIDA, Schwartz Awareness) so every output is engineered to convert.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">📋</div>
+          <h3>100% Copy-Paste Ready</h3>
+          <p>Simply copy the prompt, replace the <code>[BRACKETED]</code> variables with your product details, and hit enter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU'LL RECEIVE + GUARANTEE -->
+  <section class="section" id="inside">
+    <div class="container">
+      <div class="inside-grid reveal">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Instant Delivery</div>
+          <h2 class="section-title">What You'll Receive</h2>
+          <ul class="check-list">
+            <li><span>✓</span> <div><strong>100 Battle-Tested Prompts:</strong> 5 categories x 25 prompts each.</div></li>
+            <li><span>✓</span> <div><strong>Plug & Play Variables:</strong> Adaptable to SaaS, E-com, Info-Products & Agencies.</div></li>
+            <li><span>✓</span> <div><strong>Anti-AI-Fluff Guardrails:</strong> Human-grade copywriting constraints built in.</div></li>
+            <li><span>✓</span> <div><strong>Lifetime Access:</strong> One-time payment, instant access via Gumroad.</div></li>
+          </ul>
+        </div>
+
+        <div class="guarantee-card">
+          <div class="seal">🛡️</div>
+          <h3>Battle-Tested Quality Guarantee</h3>
+          <p>Every prompt has been stress-tested on real campaigns, launches, and paid traffic funnels. Compatible with ChatGPT, Claude, and Gemini. Get immediate lifetime access upon checkout.</p>
+          <a href="https://promptaiweb.gumroad.com/l/100promptsmk" target="_blank" rel="noopener" class="btn-primary full-width">Buy Now — Get Instant Access →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="final-cta reveal">
+        <div class="eyebrow"><span class="dot"></span> Ready To Scale?</div>
+        <h2 class="section-title">Turn AI Into Your Best <span class="text-gradient">Marketing Strategist</span></h2>
+        <p class="section-sub">Get instant access to all 100 Marketing Prompts and launch high-converting campaigns today.</p>
+        <a href="https://promptaiweb.gumroad.com/l/100promptsmk" target="_blank" rel="noopener" class="btn-primary">Get Instant Access Now →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>100 Marketing Prompts © <span id="year"></span></span>
+      <a href="https://promptaiweb.gumroad.com/l/100promptsmk" target="_blank" rel="noopener">Get Access on Gumroad →</a>
+    </div>
+  </footer>
+
+  <!-- STICKY BUY BAR -->
+  <div class="sticky-bar" id="sticky-bar">
+    <div>
+      <strong>100 Marketing Prompts</strong>
+      <span>5 Categories • Copy & Paste</span>
+    </div>
+    <a href="https://promptaiweb.gumroad.com/l/100promptsmk" target="_blank" rel="noopener" class="nav-cta">Buy Now →</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
